@@ -1,34 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+We are be creating a Funding  DAO, where people can use MATIC tokens to become either a Member or Stakeholder in the DAO. Members can apply for funding for their project and Stakeholders can vote on the projects to fund from the DAO treasury.
 
-## Getting Started
+Users can provide up to 5 MATIC tokens to become a Member of the DAO and can provide more than 5 tokens to become a Stakeholder in the DAO.
 
-First, run the development server:
+A Member can create new proposals and request funding. Every new proposal requires the Member to add 3 MATIC tokens to the DAO treasury.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+If the proposal is accepted after the voting period the initial 3 MATIC tokens are refunded, otherwise the tokens are reserved in the DAO treasury.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+When a Member creates a new proposal Stakeholders have 3 days to vote on the proposal, either in favor or against it.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+<img width="933" alt="funding-dao-create-member" src="https://user-images.githubusercontent.com/100551659/171001703-9bc79c3d-c310-426c-9358-44bb20e9b81e.png">
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img width="1154" alt="funding-dao-add-funds" src="https://user-images.githubusercontent.com/100551659/171001896-7cf62da1-70fb-4a04-8c8c-0868277f2c50.png">
