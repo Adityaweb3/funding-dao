@@ -1,4 +1,4 @@
-We are be creating a Funding  DAO, where people can use MATIC tokens to become either a Member or Stakeholder in the DAO. Members can apply for funding for their project and Stakeholders can vote on the projects to fund from the DAO treasury.
+We are creating a Funding  DAO, where people can use MATIC tokens to become either a Member or Stakeholder in the DAO. Members can apply for funding for their project and Stakeholders can vote on the projects to fund from the DAO treasury.
 
 Users can provide up to 5 MATIC tokens to become a Member of the DAO and can provide more than 5 tokens to become a Stakeholder in the DAO.
 
